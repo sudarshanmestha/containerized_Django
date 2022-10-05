@@ -1,6 +1,6 @@
 
-mkdir djangoproject    (for creating new folder)
-notepad file_name      (you can edit code file)
+mkdir djangoproject    (to creating new folder)
+notepad file_name      (you can edit and creat code file)
 dir                    (this shows all file in perticular file)
 conda env list         (this cmd will give you list of env youcreated for past project)
 ///////////////////////////////new django project///////////C:\Windows\System32\djangoproject////////////////////////////////////
