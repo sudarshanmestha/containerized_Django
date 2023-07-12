@@ -1,4 +1,5 @@
 
+
 mkdir djangoproject    (for creating new folder)
 notepad file_name      (you can edit code file)
 dir                    (this shows all file in perticular file)
@@ -21,5 +22,8 @@ cd hello_app                              (write html inside hello_app/view)
 //////////////////////docker run command //////////////
 docker build -t my-django-app .
 docker run -it --rm -p 8001:8000 my-django-app      ==>http://127.0.0.1:8001/
+#use this command if you bind mount => docker run --mount type=bind,source="$(pwd)",target=/code -it --rm -p 8001:8000 my-django-app
+
+
 
 
