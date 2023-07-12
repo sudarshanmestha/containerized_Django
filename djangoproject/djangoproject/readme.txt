@@ -20,6 +20,6 @@ cd hello_app                              (write html inside hello_app/view)
 
 //////////////////////docker run command //////////////
 docker build -t my-django-app .
-docker run -it --rm -p 8001:8000 my-django-app      ==>http://127.0.0.1:8000/
+docker run -it --rm -p 8001:8000 my-django-app      ==>http://127.0.0.1:8001/
 
 
