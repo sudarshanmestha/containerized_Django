@@ -23,3 +23,6 @@ runthough docker comand
 
 => docker build -t my-django-app .
 => docker run -it --rm -p 8001:8000 my-django-app                  //===>  http://127.0.0.1:8001/
+
+#use this command if you bind mount => docker run --mount type=bind,source="$(pwd)",target=/code -it --rm -p 8001:8000 my-django-app
+
